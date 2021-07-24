@@ -14,13 +14,13 @@ NUM_FILE_NAME = "stats"
 MY_ID = 16399547
 MAX = 10000000
 
-WELCOME_MESSAGE = "Download a .jpg to add a file to a queue\n" \
+WELCOME_MESSAGE = "I can download a .jpg to add a file to a queue\n" \
                   "The bot converts jpg(png)->pdf\n" \
                   "Using:\n" \
                   "1) Download files .jpg or .png \n" \
                   "2) Press \"convert\" command(or write it on your own) \n" \
                   "3) Get your pdf \n" \
-                  "For any questions(ads, etc.), @kokhnovich \n"
+                  "For any questions(ads, etc.), @featzai \n"
 
 
 # Delete all files from user-s dir
@@ -122,7 +122,7 @@ def text(bot, update):
     elif update.message.text == 'clear':
         clear(bot, update)
     else:
-        send(bot, update, "Ya do not ponimatb you")
+        send(bot, update, "umm")
 
 
 def error(bot, update, error):
